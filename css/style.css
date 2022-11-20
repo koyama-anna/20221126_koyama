@@ -1,0 +1,53 @@
+
+
+
+header{
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+.header{
+    font-size: 24px;
+    color: #00008b;
+    margin: 15px;
+}
+
+
+.list{
+    font-size: 14px;
+    color: #00008b;
+    display: flex;
+    justify-content: space-between;
+    margin:auto 0;
+    list-style: none;
+}
+
+.list li{
+    margin-left: 5px;
+}
+
+main{
+    width: 100%;
+    margin: 10px 0;
+}
+
+
+
+img{
+    margin: 0 0 -100px auto;
+    display: block;
+    width: 50%;
+}
+
+.blue{
+    width: 70%;
+    height: 200px;
+    background-color: #00008b;
+    
+}
+
+.smile{
+    font-size: 40px;
+    
+}
