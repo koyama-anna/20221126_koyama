@@ -79,8 +79,15 @@ header img{
     margin: 50px auto;
 }
 
+.news_all{
+    width: 70%;
+    text-align: left;
+}
+
+
 .news_ttl{
-    margin:40px 0 40px -180px;
+    margin:40px 0;
+    display: inline-block;
 }
 
 .news_ttl_e{
@@ -98,7 +105,6 @@ header img{
 }
 
 .news_table{
-    width: 70%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -140,6 +146,8 @@ header img{
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: #dcdcdc;
+    padding: 30px 0;
 }
 
 .about_ttl{
@@ -203,11 +211,17 @@ header img{
     align-items: center;
 }
 
+.service_all{
+    width: 75%;
+    text-align: left;
+
+}
+
 .service_ttl{
     display: flex;
     flex-direction: column;
     margin-top: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .service_ttl_e{
@@ -225,7 +239,6 @@ header img{
 }
 
 .service_contents_boxes{
-    width: 75%;
     display: grid;
     grid-template-rows: 150px 150px;
     grid-template-columns: 1fr 1fr;
@@ -300,15 +313,20 @@ header img{
     width: 100%;
     background-color: #dcdcdc;
     display: flex;
+    align-items: center;
     flex-direction: column;
     margin: 50px 0;
+}
+
+.blog_all{
+    width: 70%;
+    text-align: left;
 }
 
 .blog_ttl{
     display: flex;
     flex-direction: column;
-    text-align: center;
-    margin: 30px 0 30px -45%;
+    margin: 30px 0 ;
 }
 
 .blog_ttl_e{
@@ -328,8 +346,6 @@ header img{
 .blog_item{
     display: flex;
     justify-content: space-between;
-    width: 70%;
-    margin: 0 auto;
 }
 
 .blog_card_img img{
